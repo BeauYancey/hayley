@@ -13,19 +13,15 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      # - name: Setup Node
-      #   uses: actions/setup-node@v4
-      #   with: 
-      #     node-version: '20.x'
-
-      # - name: Build
-      #   run: |
-      #     npm ci && npm run build
-      #     cp dist/index.html dist/404.html
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with: 
+          node-version: '20.x'
 
       - name: Build
         run: |
-          mkdir dist && cp index.html index.css dist
+          npm ci && npm run build
+          cp dist/index.html dist/404.html
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
