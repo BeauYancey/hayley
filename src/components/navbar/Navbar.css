@@ -4,6 +4,8 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	padding: 24px 32px;
+	background-color: #F0ECE7F8;
+	box-shadow: 0 0 8px 8px #F0ECE7F8;
 }
 
 .nav-links {
