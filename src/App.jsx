@@ -12,6 +12,7 @@ export default function App() {
 				<Route path='/about' element={<ComingSoon />} />
 				<Route path='/work' element={<ComingSoon />} />
 				<Route path='/resources' element={<ComingSoon />} />
+				<Route path='/contact' element={<ComingSoon />} />
 				<Route path='*' element={<NotFound />}/>
 			</Routes>
 			<Footer />

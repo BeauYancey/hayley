@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 export default function Footer() {
@@ -5,8 +6,8 @@ export default function Footer() {
 		<footer>
 			<p>Thanks for being here! Let’s get in touch ˙ᵕ˙</p>
 			<div className='contact-buttons'>
-				<button className='btn'>LinkedIn</button>
-				<button className='btn'>Send me a message</button>
+				<a href='https://www.linkedin.com/in/hayleyyancey/' className='btn'>LinkedIn</a>
+				<Link to='/contact' className='btn'>Send me a message</Link>
 			</div>
 			<small>This website was designed by Hayley and programmed by Beau</small>
 		</footer>
