@@ -18,7 +18,7 @@ nav {
 	color: #000000
 }
 
-.nav-links a:hover, .nav-name:hover {
+.nav-links a:hover, .nav-name:hover, .nav-links a.active {
 	text-decoration: underline;
 	color: #8FA5BB
 }
