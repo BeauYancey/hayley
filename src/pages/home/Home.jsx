@@ -1,4 +1,6 @@
+import ProjectCard from '../../components/projectCard/ProjectCard'
 import './Home.css'
+import { projects } from '../../data/projects/all'
 
 export default function Home() {
 	return (
@@ -14,7 +16,9 @@ export default function Home() {
 				<p>Projects ↓ ↓ ↓</p>
 			</div>
 
-			<section id='projects'></section>
+			<section id='projects'>
+				{projects.map(prj => <ProjectCard key={prj.id} {...prj} />)}
+			</section>
 		</main>
 	)
 }
