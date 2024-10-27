@@ -1,6 +1,6 @@
 import ProjectCard from '../../components/projectCard/ProjectCard'
 import './Home.css'
-import { projects } from '../../data/projects/all'
+import { projects } from '../../data/projects'
 
 export default function Home() {
 	return (
@@ -17,7 +17,9 @@ export default function Home() {
 			</div>
 
 			<section id='projects'>
-				{projects.map(prj => <ProjectCard key={prj.id} {...prj} />)}
+				{Object.entries(projects).map(([id, prj]) => 
+					<ProjectCard key={id} id={id} {...prj} bannerColor={prj.lightColor} shadowColor={prj.darkColor}/>
+				)}
 			</section>
 		</main>
 	)
