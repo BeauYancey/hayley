@@ -1,0 +1,16 @@
+{
+	"problem": "Peer-to-peer interaction is limited in online courses. Although it is widely acknowledged that peer-to-peer interaction is vital to student engagement and success in online courses, there are limited options that offer this. Instructors and course designers often default to discussion boards which can feel tedious and ingenuine to students.",
+	"solution": "Learners can engage in friendly competition with peers asynchronously. Taking inspiration from popular game-based learning platform “Kahoot”, KnowItAll is a multiple-choice quiz game, played asychronously, in which learners compete against the clock and their classmates for a chance at a spot on the leaderboard.",
+	"info": {
+		"learners": "BYU Online Students",
+		"role": "Main Designer/Developer",
+		"tools": ["SmartBuilder", "xAPI", "SCORM"],
+		"skills": ["UI Design", "xAPI", "Gamification"]
+	},
+	"process": {
+		"analysis": "",
+		"design": "",
+		"development": "",
+		"evaluation": ""
+	}
+}

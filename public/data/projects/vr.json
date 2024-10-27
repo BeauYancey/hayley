@@ -1,0 +1,16 @@
+{
+	"problem": "We didn't know if adolescents with autism could learn or enjoy using VR. Although virtual reality headsets seem like a promising educational tool for adolescents with autism, VR headsets are awkward and take some getting used to. We wanted to see if they could learn to use them effectively and enjoy the experience.",
+	"solution": "We found not only could they learn to use VR effectively, they enjoyed it. We designed a study which found that adolescents with autism could not only learn to use VR with both virtual and physical controllers, they really liked the experience and found it very engaging. Many expressed interest in using VR again.",
+	"info": {
+		"learners": "Adolescents with Autism",
+		"role": "Research Team Member",
+		"tools": ["Meta Quest", "R"],
+		"skills":["Research", "Presenting", "Analysis"]
+	},
+	"process": {
+		"analysis": "",
+		"design": "",
+		"development": "",
+		"evaluation": ""
+	}
+}

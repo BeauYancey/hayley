@@ -1,8 +1,16 @@
+import { useEffect, useState } from 'react'
 import ProjectCard from '../../components/projectCard/ProjectCard'
 import './Home.css'
-import { projects } from '../../data/projects'
 
 export default function Home() {
+
+	const [projects, setProjects] = useState([])
+	useEffect(() => {
+		fetch('/data/projects/all.json')
+		.then(res => res.json())
+		.then(data => setProjects(data))
+	})
+
 	return (
 		<main className='home'>
 			<h1>Hi! I'm Hayley.</h1>

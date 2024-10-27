@@ -1,0 +1,16 @@
+{
+	"problem": "Students can't fully learn anatomy with current resources. Anatomy students often struggle to identify structures from multiple angles and retain information on their functions due to the limitations of 2D images and static study tools. Many current study resources provide only one view of anatomical structures, and scheduling conflicts prevent students from accessing helpful lab resources.",
+	"solution": "A 3D eye model offers interactive, all-angle learning. By developing a 3D model of the eye, this project offers a dynamic, rotatable tool that allows students to view and interact with anatomical structures from all angles. Integrated quizzes test knowledge of structure identification and function, offering an engaging, flexible study resource available at any time, improving both understanding and exam performance.",
+	"info": {
+		"learners": "BYU-Idaho Anatomy Students",
+		"role": "Main Designer and Developer",
+		"tools": ["Blender"],
+		"skills": ["3D Modeling"]
+	},
+	"process": {
+		"analysis": "",
+		"design": "",
+		"development": "",
+		"evaluation": ""
+	}
+}
