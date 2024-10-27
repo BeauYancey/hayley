@@ -3,11 +3,11 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
 import Project from "./pages/project/Project";
-import {ScrollToTop} from "./hooks/scrollToTop";
+import { scrollToTop } from "./hooks/scrollToTop";
 
 export default function App() {
 
-	ScrollToTop()
+	scrollToTop()
 
 	return (
 		<>
