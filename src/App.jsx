@@ -2,13 +2,19 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
+import Project from "./pages/project/Project";
+import {ScrollToTop} from "./hooks/scrollToTop";
 
 export default function App() {
+
+	ScrollToTop()
+
 	return (
 		<>
 			<Navbar />
 			<Routes>
 				<Route path='/' exact element={<Home />}/>
+				<Route path='/projects/:id' element={<Project />} />
 				<Route path='/about' element={<ComingSoon />} />
 				<Route path='/work' element={<ComingSoon />} />
 				<Route path='/resources' element={<ComingSoon />} />
