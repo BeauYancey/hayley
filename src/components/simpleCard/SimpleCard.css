@@ -1,0 +1,21 @@
+.simple-card {
+	border-radius: 12px;
+	border: 2px solid #000000;
+	padding: 24px;
+}
+
+.simple-card-title {
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.simple-card-body {
+	display: flex;
+	flex-direction: column;
+}
+
+.simple-card-body-item {
+	font-size: 28px;
+	font-weight: 300;
+}
